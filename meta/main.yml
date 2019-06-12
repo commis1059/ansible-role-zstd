@@ -1,0 +1,18 @@
+---
+dependencies:
+  - commis1059.epel
+
+galaxy_info:
+  role_name: zstd
+  author: commis1059
+  description: Install Zstandard
+  license: MIT
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: EL
+      versions:
+        - 7
+
+  galaxy_tags:
+    - zstd

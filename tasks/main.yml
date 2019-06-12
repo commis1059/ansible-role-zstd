@@ -1,0 +1,7 @@
+---
+- name: Install zstd
+  yum:
+    name: zstd
+    state: present
+    enablerepo: epel
+  become: true
